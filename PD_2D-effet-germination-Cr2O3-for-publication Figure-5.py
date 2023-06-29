@@ -30,12 +30,12 @@ from pymatgen.analysis.pourbaix_diagram import PourbaixDiagram, PourbaixPlotter,
 # Initialize the MP Rester
 
 #if __name__ == "__main__":
-#    MAPI_KEY = "9TnOADgQ0sFZ6AAdt"  # You must change this to your Materials API key! (or set MAPI_KEY env variable)  
+#    MAPI_KEY = ""  # You must change this to your Materials API key! (or set MAPI_KEY env variable)  
 #mpr = MPRester(MAPI_KEY)  # object for connecting to MP Rest interface
 
 # use new api key
 if __name__ == "__main__":
-    MAPI_KEY = "SNcD3tHhDv9Y6aOKDq0kKv7acAkmKeD8"  # You must change this to your Materials API key! (or set MAPI_KEY env variable)  
+    MAPI_KEY = ""  # You must change this to your Materials API key! (or set MAPI_KEY env variable)  
 mpr = MPRester(MAPI_KEY)  # object for connecting to MP Rest interface
 
 # Get all pourbaix entries corresponding to the Fe-Cr-water chemical system.
